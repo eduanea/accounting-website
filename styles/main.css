@@ -1,0 +1,120 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Project styles
+   ========================================================================== */
+
+body {
+    background-color: #FEF6EB;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav.navbar {
+    background-color: #BEB9B5;
+}
+
+p,h1, h2, h3, h4, h5, h6, .p, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro', sans-serif;text-align: justify;
+}
+p {
+    font-size: 20px;
+}
+
+.jumbotron {
+    color: #BEB9B5;
+    margin-top: 30px;
+}
+
+.circle {
+    -webkit-border-radius: 50%;
+	border-radius: 50%;
+    font-size: 24px;
+    font-weight: 200;
+    height: 240px;
+    line-height: 10;
+    margin: 15px auto;
+    text-align: center;
+    width: 240px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.logo, .lang{
+    max-height: 20px;
+}
+
+.navbar-brand-name > {
+
+    display: inline-block;
+    float: left;
+
+
+}
+
+.navbar-brand-name > img {
+    display: inline-block;
+    float: left;
+    padding: 0 15px 0 0;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    padding-bottom: 80px;
+}
+.footer {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 0px 0;
+
+}
+
+
+footer p {
+    height: 50px;
+    line-height: 65px;
+}
+.footer {
+    display: table-row;
+    height: 1px;
+}
+.footer > .container-fluid {
+    background-color: #BEB9B5;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.active {
+    color:white !important;
+}
